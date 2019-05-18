@@ -1,0 +1,296 @@
+body{
+    background-image: url(../image/img-2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll; 
+}
+/* 内容区 begin */
+#container header
+{
+    height: 80px;
+    background-image: url(../image/img-3.jpg);
+    background-repeat: repeat-x;
+}
+/* 导航 begin */
+#container nav{
+    width: 150px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    /* background-color: pink; */
+}
+#container nav ul{
+    display: block;
+    margin-top: 100px;
+}
+#container nav ul li{
+    display: block;
+    line-height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+#container nav ul li a{
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+#container nav ul li a#now_foucs{
+    background-color: pink;
+    color: #fff;
+}
+#container nav ul li a:hover{
+    background-color: pink;
+    color: #fff;
+}
+/* 导航 end */
+#container #content{
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    /* background-color: pink; */
+}
+/* 学校 总览 begin */
+#container #content #school{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 5px;
+}
+#container #content #school #show_sch{
+    width: 750px;
+    margin: 0 auto;
+    line-height: 35px;
+    font-size: 20px;
+    padding: 5px 0;
+    border-bottom: 2px solid pink;
+}
+#container #content #school table{
+    margin: 15px auto;
+    border-spacing: 0;
+    border: 1px solid pink;
+}
+#container #content #school table td{
+    width: 250px;
+    height: 35px;
+    border: 1px solid pink;
+}
+/* 学校 总览 end */
+
+/* 大学 begin */
+#container #content #school-1{
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 100px;
+    background-image: url(../image/bg-4.png);
+    background-position: left 75px bottom 30px;
+    background-repeat: no-repeat;
+}
+#school-1 #school-1_title{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+#school-1 #school-1_title .line-1{
+    display: inline-block;
+    width: 315px;
+    vertical-align: middle;
+    border-top: 2px solid pink;
+}
+#school-1 #school-1_title #name-1{
+    display: inline-block;
+    line-height: 35px;
+    font-size: 20px;
+    padding: 5px 0;
+    /* background-color: aqua; */
+}
+#school-1 #school-1_con{   
+    width: 700px;
+    margin: 0 auto;
+}
+#school-1 #school-1_con #school-1_con-1{
+    height: 250px;
+    /* background-color: blue; */
+    width: 620px;
+    margin: 10px auto;
+}
+#school-1 #school-1_con #school-1_con-1 img{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+#school-1 #school-1_con #school-1_con-1 #sch1-con-1_con{
+    float: left;
+    width: 350px;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+#school-1 #school-1_con #school-1_con-2{
+    height: 250px;
+    width: 620px;
+    margin: 10px auto;
+    /* background-color: blueviolet; */
+}
+#school-1 #school-1_con #school-1_con-2 #sch1-con-2_con{
+    float: left;
+    width: 340px;
+    line-height: 35px;
+    margin-top: 50px;
+    /* background-color: blueviolet; */
+}
+#school-1 #school-1_con #school-1_con-2 img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+#school-1 #school-1_con #school-1_con-3{
+    height: 250px;
+    width: 620px;
+    margin: 10px auto;
+    /* background-color: blueviolet; */
+}
+#school-1 #school-1_con #school-1_con-3 img{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+#school-1 #school-1_con #school-1_con-3 #sch1-con-3_con{
+    float: left;
+    width: 300px;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+#school-1 #school-1_con #school-1_con-5{
+    width: 620px;
+    height: 350px;
+    margin: 10px auto;
+    /* background-color: aqua; */
+}
+#school-1 #school-1_con #school-1_con-5 #sch1-con-5_con{
+    line-height: 35px;
+    text-align: center;
+    margin: 5px auto;
+}
+#school-1 #school-1_con #school-1_con-5 img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+#school-1 #school-1_con #school-1_con-5 img#sch-1_img-1{
+    margin-top: 110px;
+}
+#school-1 #school-1_con #school-1_con-5 img#sch-1_img-2{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 60px;
+}
+#school-1 #school-1_con #school-1_con-5 img#sch-1_img-3{
+    margin-top: 10px;
+}
+#school-1 #school-1_con #school-1_con-4{
+    width: 620px;
+    line-height: 35px;
+    margin: 10px auto;
+    text-indent: 28px;
+    /* background-color: aqua; */
+}
+.more{
+    width: 700px;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 12px;
+    color: pink;
+}
+/* 大学  end */
+/* 高中 begin */
+#container #content #school-2{
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 100px;
+    background-image: url(../image/bg-4.png);
+    background-position: left 75px bottom 30px;
+    background-repeat: no-repeat;
+}
+#school-2 #school-2_title{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+#school-2 #school-2_title .line-2{
+    display: inline-block;
+    width: 315px;
+    vertical-align: middle;
+    border-top: 2px solid pink;
+}
+#school-2 #school-2_title #name-2{
+    display: inline-block;
+    line-height: 35px;
+    font-size: 20px;
+    padding: 5px 0;
+    /* background-color: aqua; */
+}
+#school-2 #school-2_con{
+    width: 700px;
+    margin: 0 auto;
+}
+#school-2 #school-2_con #school-2_con-1{
+    width: 620px;
+    margin: 10px auto;
+    line-height: 35px;
+    text-indent: 28px;
+}
+#school-2 #school-2_con #school-2_con-2{
+    width: 620px;
+    margin: 10px auto;
+}
+#school-2 #school-2_con #school-2_con-2 #sch-2_img-1{
+    float: left;
+    width:305px;
+    height: 300px;
+}
+#school-2 #school-2_con #school-2_con-2 div#img-1{
+    display: inline-block;
+    width: 305px;
+    height: 300px;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+#school-2 #school-2_con #school-2_con-2 div#img-2{
+    width: 305px;
+    height: 145px;
+}
+#school-2 #school-2_con #school-2_con-2 div#img-2 img{
+    width: 305px;
+    height: 145px;
+}
+#school-2 #school-2_con #school-2_con-2 div#img-3{
+    width: 305px;
+    height: 145px;
+    margin-top: 5px;
+}
+#school-2 #school-2_con #school-2_con-2 div#img-3 img{
+    width: 149px;
+    height: 143px;
+}
+#school-2 #school-2_con #school-2_con-3{
+    width: 620px;
+    margin: 10px auto;   
+    line-height: 35px;
+    text-indent: 28px;
+}
+
+/* 高中 end */
+
+
+/* 内容区 end */

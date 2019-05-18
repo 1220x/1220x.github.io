@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>联系我</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/connection.css">
+    <script src="../js/connection.js"></script>
+</head>
+<body>
+    <div id="container" class="wrapper">
+        <header class="wrapper">
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" target="">首页</a></li>
+                <li><a href="me.html" target="">关于我</a></li>
+                <li><a href="resume.html">我的简历</a></li>
+                <li><a href="myschool.html" target="">校园生活</a></li>
+                <li><a href="tour.html" target="">我的足迹</a></li>
+                <li><a id="now_foucs" href="connection.html" target="">联系我</a></li>
+            </ul>
+        </nav>
+        <div id="content" class="inner">
+            <form id="myForm">
+                <div id="content-1">
+                    <span>嗨！编程小菜鸟疯狂学习中，python、JavaScript...，有想一起学习的吗？有想一起交流的吗？邀请你填写下面的问卷。或者联系我，欢迎加入我的学习群：<br>&nbsp;&nbsp;邮箱：1960708821@qq.com&nbsp;&nbsp;QQ：1960708821</span>
+                </div>
+                <div id="content-2">
+                    <div id="content-2-1" class="con">
+                        <label for="email"><span id="mark">*</span>邮箱：</label>
+                        <input required id="email" type="text" name="email" placeholder="填写邮箱让我能联系到你">
+                    </div>
+                    
+                    <div id="content-2-2" class="con">
+                        <label for="">性别：</label>
+                        <input type="radio" name="sex" value="boy" checked>男
+                        <input type="radio" name="sex" value="girl">女        
+                    </div>
+
+                    <div id="content-2-3" class="con">
+                        <label for="">在校生：</label>
+                        <input type="radio" name="sch" value="sch_1" checked>是
+                        <input type="radio" name="sch" value="sch_0">否        
+                    </div>
+
+                    <div id="content-2-4" class="con">
+                        <label class="txt" for="skill">技术栈：</label>
+                        <textarea id="skill" name="skill" cols="40" rows="5" placeholder="可以填写你已掌握的技能，如python、Vue.js"></textarea>        
+                    </div>
+
+                    <!-- <div id="content-2-5" class="con">
+                        <label>学习方向：</label>
+                        <input type="checkbox" name="option">前端
+                        <input type="checkbox" name="option">后端
+                        <input type="checkbox" name="option">人工智能
+                        <input type="checkbox" name="option">机器学习
+                        <input type="checkbox" name="option">其他
+                    </div> -->
+
+                    <div id="content-2-6" class="con">
+                        <label class="txt" for="other">其他：</label>
+                        <textarea id="other" name="" cols="40" rows="5" placeholder="可以填写你打算学习的技能"></textarea>
+                    </div>
+
+                    <div id="content-2-7" class="con">
+                            <label class="txt" for="ps">备注：</label>
+                            <textarea id="ps" name="" cols="40" rows="5" placeholder="可以填写其他任何想说的话"></textarea>
+                    </div>
+
+                    <div id="content-2-8" class="con">
+                        <input class="btn" id="btn1" type="submit" value="提交" onclick="show_info()">
+                        <input class="btn" id="btn2" type="reset" value="重置">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

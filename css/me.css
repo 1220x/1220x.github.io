@@ -1,0 +1,289 @@
+body{
+    background-image: url(../image/img-2.jpg);
+    background-repeat: repeat;
+    background-position:center;
+    background-attachment: scroll;
+}
+
+/* 内容区 begin */
+#container header
+{
+    height: 80px;
+    background-image: url(../image/img-3.jpg);
+    background-repeat: repeat;
+}
+/* 导航 begin */
+#container nav{
+    width: 150px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    /* background-color: pink; */
+}
+#container nav ul{
+    display: block;
+    margin-top: 100px;
+}
+#container nav ul li{
+    display: block;
+    line-height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+#container nav ul li a{
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+#container nav ul li a#now_foucs{
+    background-color: pink;
+    color: #fff;
+}
+#container nav ul li a:hover{
+    background-color: pink;
+    color: #fff;
+}
+/* 导航 end */
+/* 简介 begin */
+#container #content{
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* background-color: pink; */
+}
+#container #content #content-1{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    background-color: #fff;
+    background-image: url(../image/img-1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#container #content #content-1 #content-circle{
+    float: left;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background-color: pink;
+    color: #fff;
+    overflow: hidden;
+
+    animation-name: shapechange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes shapechange{
+    25%{
+        width: 40px;
+        height: 40px;
+        transform: rotate(90deg);
+        font-size: 16px;
+    }
+    50%{
+        width: 20px;
+        height: 20px;
+        transform: rotate(180deg);    
+        font-size: 6px;   
+    }
+    75%{
+        width: 40px;
+        height: 40px;
+        transform: rotate(270deg);
+        font-size: 16px;
+    }
+    100%{
+        width: 60px;
+        height: 60px;
+        transform: rotate(360deg);
+        font-size: 24px
+    }
+}
+
+#container #content #content-1 #content-1-1{
+    float: left;
+    margin-left: 100px;
+    /* background-color: aqua; */
+}
+#container #content #content-1 #content-1-2{
+    width: 180px;
+    height: 180px;
+    margin-left: 470px;
+    padding: 12px;
+    /* background-color: blue; */
+}
+#container #content #content-1 #content-1-1 table td{
+    width: 140px;
+    height: 15px;
+    padding: 5px;
+    /* background-color: aqua; */
+}
+#container #content #content-1 #content-1-1 table .item{
+    width: 100px;
+}
+#container #content #content-1 #content-1-2 img{
+    width: 150px;
+    height: 150px;
+}
+/* 简介 end */
+/* 想说的话 begin */
+#container #content #content-2{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    background-color: #fff;
+    background-image: url(../image/img-1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#container #content #content-2 #content-2-1{
+    float: left;
+    width: 70%;
+    text-indent: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+#container #content #content-2 #content-2-1 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#container #content #content-2 #content-2-1 p a{
+    color: red;
+}
+#container #content #content-2 #content-2-2{
+    width: 20%;
+    margin-left: 75%;
+}
+#container #content #content-2 #content-2-2 .fonts{
+    font-size: 25px;
+    color:black;
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#container #content #content-2 #content-2-2 #font-1{
+    animation-name: move_font;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+#container #content #content-2 #content-2-2 #font-2{
+    animation-name: move_font;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+#container #content #content-2 #content-2-2 #font-3{
+    animation-name: move_font;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+#container #content #content-2 #content-2-2 #font-4{
+    animation-name: move_font;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes move_font{
+    25%{
+        margin-left: 50px;
+        transform:  rotate(90deg);
+        color: pink;
+    }
+    50%{
+        margin-left: 100px;
+        transform:  rotate(180deg);
+        font-size: 35px;
+    }
+    75%{
+        margin-left: 50px;
+        transform:  rotate(270deg);
+    }
+    100%{
+        margin-left: 0;
+        transform:  rotate(360deg);
+        font-size: 25px;
+        color: black;
+    }
+}
+/* 想说的话 end */
+/* 小分享 begin */
+#container #content #content-3{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    background-color: #fff;
+    background-image: url(../image/img-1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#container #content #content-3 #content-3-1{
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+#container #content #content-3 #content-3-1 img{
+    display: block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #333;
+    width: 100px;
+    height: 100px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#container #content #content-3 #content-3-1 #img-1,#img-3{
+    margin-left: 80px;
+}
+#container #content #content-3 #content-3-2{
+    width: 450px;
+    margin-left: 250px;
+    text-indent: 28px;
+    line-height: 24px;
+    /* background-color: blue;  */
+}
+#container #content #content-3 #content-3-2 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#container #content #content-3 #content-3-2 #circle{
+    width: 100px;
+    height: 50px;
+    margin-left: 370px;
+    background: pink;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+#container #content #content-3 #content-3-2 span{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+
+}
+/* 小分享 end */
+
+
+/* 内容区 end */

@@ -1,0 +1,119 @@
+body{
+    background-image: url(../image/img-2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+/* 内容区 begin */
+#container header
+{
+    height: 80px;
+    background-image: url(../image/img-3.jpg);
+    background-repeat: repeat;
+}
+/* 导航 begin */
+#container nav{
+    width: 150px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    /* background-color: pink; */
+}
+#container nav ul{
+    display: block;
+    margin-top: 100px;
+}
+#container nav ul li{
+    display: block;
+    line-height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+#container nav ul li a{
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+#container nav ul li a#now_foucs{
+    background-color: pink;
+    color: #fff;
+}
+#container nav ul li a:hover{
+    background-color: pink;
+    color: #fff;
+}
+/* 导航 end */
+/* 表单 begin */
+#container #content{
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    background-image: url(../image/bg-4.png);
+    background-position: bottom 20px center;
+    background-repeat: no-repeat;
+}
+#container #content #content-1{
+    width: 700px;
+    margin: 0 auto;
+    border-bottom: 1px solid pink;
+    text-indent: 28px;
+}
+#container #content #content-1 span{
+    line-height: 35px;
+}
+#container #content #content-2{
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#container #content #content-2 .con{
+    line-height: 25px;
+    width: 400px;
+    /* background-color: aqua; */
+    margin: 10px auto;
+}
+#container #content #content-2 span#mark{
+    color: red;
+    font-size: 10px;
+    vertical-align: top;
+}
+#container #content #content-2 label{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px;
+    /* background-color: aquamarine; */
+}
+#container #content #content-2 label.txt{
+    vertical-align: top;
+}
+#container #content #content-2 textarea{
+    margin-top: 12px;
+}
+#container #content #content-2 #content-2-8{
+    text-align: center;
+    margin-top: 20px;
+}
+#container #content #content-2 #content-2-8 .btn{
+    background-color: #fff;
+    color: #333;
+    width: 50px;
+    height: 25px;
+    margin: 0 10px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    font-family: "Microsoft Yahei";
+    font-family: "SimSun";
+}
+#container #content #content-2 #content-2-8 .btn:hover{
+    cursor: pointer;
+}
+/* 表单 end */
+/* 内容区 end */

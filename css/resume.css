@@ -1,0 +1,262 @@
+body{
+    background-image: url(../image/img-2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+/* 内容区 begin */
+#container header
+{
+    height: 80px;
+    background-image: url(../image/img-3.jpg);
+    background-repeat: repeat;
+}
+/* 导航 begin */
+#container nav{
+    width: 150px;
+    height: 500px;
+    float: left;
+    /* border: 1px solid pink; */
+    /* background-color: pink; */
+    text-align: center;
+}
+#container nav ul{
+    display: block;
+    margin-top: 100px;
+}
+#container nav ul li{
+    display: block;
+    line-height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+#container nav ul li a{
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+#container nav ul li a#now_foucs{
+    background-color: pink;
+    color: #fff;
+}
+#container nav ul li a:hover{
+    background-color: pink;
+    color: #fff;
+}
+/* 导航 end */
+/* 简历区 begin */
+#container #content{
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+#container #content #content-1{
+    width: 800px;
+    height: 200px;
+    background-color: pink;
+}
+#container #content #content-1 #content-1-1{
+    float: left;
+    width: 600px;
+    height: 150;
+    background-color: pink;
+}
+#container #content #content-1 #content-1-1 img#font_me{
+    display: block;
+    width: 600px;
+    height: 140px;
+}
+#container #content #content-1 #content-1-1 #content-1-1_sub .info_me{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    /* background-color: aqua; */
+}
+#container #content #content-1 #content-1-1 #content-1-1_sub .info_me .call_me{
+    display: inline-block;
+    margin-right: 80px;
+}
+/* 证件照 begin */
+#container #content #content-1 #content-1-2{
+    padding: 30px;
+    margin-left: 600px;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+#container #content #content-1 #content-1-2 #content-1-2_img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    background-image: url(../image/img-9.jpg);
+    background-position: center;
+}
+#container #content #content-1 #content-1-2 #content-1-2_name{
+    text-align: center;
+    margin-top: 5px;
+}
+/* 证件照 end */
+/* 简历详细内容 begin */
+#container #content #content-2{
+    width: 700px;
+    margin: 0 auto;
+}
+/* 教育背景 begin */
+#content-2 #content-2-1{
+    background-color: #fff;
+    margin-top: 25px;
+}
+#content-2 #content-2-1 #content-2-1_title{
+    line-height: 35px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: pink;
+    border-bottom: 2px solid pink;
+}
+#content-2 #content-2-1 #content-2-1_con{
+    line-height: 35px;
+    padding-left: 5px;
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-1 #school{
+    display: inline-block;
+    width: 540px;
+    text-align: left;
+    font-weight: bold;
+    /* background-color: blue; */
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-1 #school span{
+    margin-right: 30px;
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-1 #school_time{
+    display: inline-block;
+    width: 145px;
+    text-align: right;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-2 span{
+    line-height: 35px;
+    margin-right: 30px;
+    /* background-color: aqua; */
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-3 #course{
+    display: inline-block;
+    width: 80px;
+    line-height: 35px;
+    /* background-color: aqua; */
+    vertical-align: top;
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-3 #course_con{
+    display: inline-block;
+    width: 460px;
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-4 #p_skill{
+    display: inline-block;
+    width: 80px;
+    line-height: 35px;
+    /* background-color: aqua; */
+    vertical-align: top;
+}
+#content-2 #content-2-1 #content-2-1_con #content-2-1_con-4 #p_skill_con{
+    display: inline-block;
+    width: 460px;
+}
+/* 教育背景 end */
+/* 获奖荣誉 begin  */
+#content-2 #content-2-2{
+    background-color: #fff;
+    margin-top: 25px;
+}
+#content-2 #content-2-2 #content-2-2_title{
+    line-height: 35px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: pink;
+    border-bottom: 2px solid pink;
+}
+#content-2 #content-2-2 #content-2-2_con{
+    line-height: 35px;
+    padding-left: 5px;
+}
+#content-2 #content-2-2 #content-2-2_con .con_name{
+    display: inline-block;
+    width: 540px;
+    text-align: left;
+    font-weight: bold;
+    /* background-color: blue; */
+}
+#content-2 #content-2-2 #content-2-2_con .con_time{
+    display: inline-block;
+    width: 145px;
+    text-align: right;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+/* 获奖荣誉 end */
+/* 校内工作 begin */
+#content-2 #content-2-3{
+    background-color: #fff;
+    margin-top: 25px;
+}
+#content-2 #content-2-3 #content-2-3_title{
+    line-height: 35px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: pink;
+    border-bottom: 2px solid pink;
+}
+#content-2 #content-2-3 #content-2-3_con{
+    line-height: 35px;
+    padding-left: 5px;
+}
+#content-2 #content-2-3 #content-2-3_con .con-2-3_name{
+    display: inline-block;
+    width: 540px;
+    text-align: left;
+    /* background-color: aqua; */
+}
+#content-2 #content-2-3 #content-2-3_con .con-2-3_name span{
+    margin-right: 30px;
+    font-weight: bold;
+}
+#content-2 #content-2-3 #content-2-3_con .con-2-3_time{
+    display: inline-block;
+    width: 145px;
+    text-align: right;
+    font-weight: bold;
+    /* background-color: blue; */
+}
+#content-2 #content-2-3 #content-2-3_con .con-2-3_con{
+    width: 500px;
+    margin-left: 80px;
+    /* text-indent: 28px; */
+}
+/* 校内工作 end */
+/* 综合技能 begin */
+#content-2 #content-2-4{
+    background-color: #fff;
+    margin-top: 25px;
+}
+#content-2 #content-2-4 #content-2-4_title{
+    line-height: 35px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: pink;
+    border-bottom: 2px solid pink;
+}
+#content-2 #content-2-4 #content-2-4_con{
+    line-height: 35px;
+    padding-left: 5px;
+}
+#content-2 #content-2-4 #content-2-4_con .con-2-4 .con-2-4_name{
+    font-weight: bold;
+}
+/* 综合技能 end */
+/* 简历详细内容 end */
+/* 简历区 end */
+/* 内容区 end */

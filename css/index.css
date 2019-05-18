@@ -1,0 +1,71 @@
+/* 初始化工作 begin */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0;
+}
+ul, ol {
+    list-style-type: none;
+}
+body{
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    font-family: "Microsoft Yahei";
+    font-family: "SimSun";
+    background-image: url(../image/img-3.jpg);
+    opacity: 0.8;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+/* 公共类 begin */
+.wapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clear{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+/* 公共类 end */
+/* 初始化工作 end */
+
+/* 内容样式 begin */
+#container_index a{
+    display: block;
+    width: 600px;
+    height: 300px;
+    margin: 130px auto;
+}
+#container_index a #content_index{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px 10px #333;
+    /* background-color: aqua; */
+    opacity: 0.8;
+}
+#container_index a #content_index #content_sub{
+    line-height: 35px;
+    margin-top: 70px;
+    font-size: 28px;
+    text-align: center;
+}
+/* 内容样式 end */

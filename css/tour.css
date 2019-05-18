@@ -1,0 +1,197 @@
+body{
+    background-image: url(../image/img-2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+/* 内容区 begin */
+#container header
+{
+    height: 80px;
+    background-image: url(../image/img-3.jpg);
+    background-repeat: repeat;
+}
+/* 导航 begin */
+#container nav{
+    width: 150px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    /* background-color: pink; */
+}
+#container nav ul{
+    display: block;
+    margin-top: 100px;
+}
+#container nav ul li{
+    display: block;
+    line-height: 35px;
+    width: 150px;
+    margin-top: 15px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+#container nav ul li a{
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+#container nav ul li a#now_foucs{
+    background-color: pink;
+    color: #fff;
+}
+#container nav ul li a:hover{
+    background-color: pink;
+    color: #fff;
+}
+/* 导航 end */
+#container #content{
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+}
+#container #content .con{
+    width: 800px;
+    margin: 40px auto;
+    padding: 30px 10px;
+    background-color: #fff;
+}
+#container #content .con_title{
+    width: 300px;
+    background-color: pink;
+}
+#container #content .con_title span{
+    line-height: 35px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+/* 第一部分 begin */
+#content #content-1 #content-1-2{
+    margin-top: 20px;
+    text-align: center;
+}
+#content #content-1 #content-1-2 img{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+#content #content-1 #content-1-2 #content-1-2_con{
+    text-align: left;
+    text-indent: 28px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+/* 第一部分 end */
+/* 第二部分 begin */
+#content #content-2 #content-2-2{
+    width: 750px;
+    margin: 20px auto;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+#content #content-2 #content-2-2 img#part1{
+    display: block;
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    /* background-color: bisque; */
+}
+#content #content-2 #content-2-2 div#part2{
+    width: 300px;
+    line-height: 20px;
+    margin-left: 430px;
+    text-align: left;
+    text-indent: 28px;
+    padding: 60px 0;
+    /* background-color: aqua; */
+}
+
+#content #content-2 #content-2-2 img#part3{
+    display: block;
+    margin-left: 430px;
+    width: 300px;
+    height: 200px;
+    /* background-color: blue; */
+}
+/* 第二部分 end */
+/* 第三部分 begin */
+#content #content-3{
+    width: 750px;
+    margin: 20px auto;
+}
+#content #content-3 #content-3-2 img#con-3-2_part1{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+    /* background-color: antiquewhite; */
+}
+#content #content-3 #content-3-2 div#con-3-2_part2{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+    background-image: url(../image/wd-4-min.jpg);
+    background-size: 200px 200px;
+    background-position: center;
+}
+#content #content-3 #content-3-2 div#con-3-2_part2 span{
+    background-color: #ddd;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+#content #content-3 #content-3-2 img#con-3-2_part3{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 30px;
+    /* background-color: blueviolet; */
+}
+/* 第三部分 end */
+/* 第四部分 begin */
+#content #content-4{
+    width: 750px;
+    margin: 20px auto;
+}
+#content #content-4 #content-4-2{
+    padding: 0 20px;
+}
+#content #content-4 #content-4-2 .con-4-2{
+    width: 240px;
+    height: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#content-4 #content-4-2 div#con-4-2_part2 .part2_con{
+    width: 240px;
+    height: 130px;
+    text-align: left;
+    text-indent: 28px;
+}
+#content-4 #content-4-2 div#con-4-2_part2 span{
+    display: block;
+    /* background-color: aqua; */
+    margin-top: 30px;
+    line-height: 25px;
+}
+#content-4 #content-4-2 img#con-4-2_part3{
+    border: 1px solid #333;
+}
+/* 第四部分 end */
+
+/* 内容区 end */
